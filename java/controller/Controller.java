@@ -37,6 +37,7 @@ public class Controller extends HttpServlet {
         Action.add(new ViewFriendsAction(model));
         Action.add(new ViewOthersProfileAction(model));
         Action.add(new AddFriendAction(model));
+        Action.add(new DeleteFriendAction(model));
     }
 
     public void doPost(HttpServletRequest request, HttpServletResponse response)
